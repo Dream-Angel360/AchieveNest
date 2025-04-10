@@ -1,11 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import AchieveNest from './App';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <AchieveNest />
-  </React.StrictMode>
-);
+export default function Home() {
+  return <h1>Welcome to AchieveNest!</h1>;
+}
